@@ -1,0 +1,19 @@
+{
+  "name": "3-kazkas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"dead-server --port=4003 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "KPlukas",
+  "license": "MIT",
+  "dependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
