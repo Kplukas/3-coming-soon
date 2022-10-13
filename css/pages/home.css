@@ -1,6 +1,10 @@
 .hero {
     min-height: 100vh;
     text-align: center;
+    background-image: url(../../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .hero > .row-short {
     display: flex;
@@ -14,6 +18,7 @@
 }
 .main-title {
     font-size: 80px;
+    text-transform: uppercase;
 }
 .main-description {
     font-size: 20px;
@@ -84,5 +89,8 @@ footer a:hover {
 @media (max-width: 700px) {
     .bottom-trio {
         flex-direction: column;
+    }
+    .main-title {
+        font-size: 60px;
     }
 }
