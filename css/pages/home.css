@@ -104,4 +104,8 @@ footer a:hover {
     top: -30px;
     right: -20px;
     background-color: var(--secondary-color);
+
+}
+.back-to-top:hover {
+    border: var(--secondary-color) 1px solid;
 }
